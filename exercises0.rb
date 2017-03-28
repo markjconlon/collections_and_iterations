@@ -10,9 +10,13 @@ definitions = { selfiecide: "when a person dies while trying to take a selfie in
 movie_names = { tron: 2010,
                 thecovenant: 2006,
                 interstellar: 2014}
-cities = { toronto: 2 615 000,
-            montreal: 1 650 000,
-            ottawa: 883 391}
+cities = { toronto: 2615000,
+            montreal: 1650000,
+            ottawa: 883391}
 friends_ages = {mark: 27,
                 lauren: 23,
                 ben: 32}
+
+fav_colours.each do |color|
+  puts color
+end
