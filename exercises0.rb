@@ -20,3 +20,11 @@ friends_ages = {mark: 27,
 fav_colours.each do |color|
   puts color
 end
+
+print fav_colours[0] + "\n"
+
+puts (ages.sort)
+
+ages << 0
+
+puts (movie_names[:tron])
