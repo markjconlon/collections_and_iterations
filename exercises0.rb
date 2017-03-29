@@ -88,4 +88,11 @@ end
 
 puts colours[-1]; puts colours[-2]
 
-#
+ages.map! do |value|
+  value +=1
+end
+
+puts ages
+
+colours << "cadetblue"
+colours << "beige"
