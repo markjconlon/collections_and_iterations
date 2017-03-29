@@ -68,7 +68,24 @@ flips.count("heads")
 
 performers.delete("Skrillex")
 
-cities.store(:toronto, 2)
-puts cities
+# cities.store(:toronto, 2)
+# puts cities
 
 #Exercise 5
+sum = 0
+cities.each do |key, value|
+  sum += value
+end
+puts sum
+
+friends_ages.each do |friend, age|
+  if age <= 30
+    puts "#{friend} is young"
+  else
+    puts "#{friend} is old"
+  end
+end
+
+puts colours[-1]; puts colours[-2]
+
+#
