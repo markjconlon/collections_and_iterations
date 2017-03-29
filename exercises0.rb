@@ -42,4 +42,14 @@ performers.each do |artist|
   puts "I think #{artist} is great."
 end
 
+#Exercise 3
 puts performers[0] + " " + performers[1]
+
+movie_names.each do |title, year|
+  puts "#{title} came out in #{year}."
+end
+
+print (ages.sort.reverse)
+
+movie_names.store("Beauty and the Beast", [1991, 2017])
+puts movie_names
