@@ -28,3 +28,18 @@ puts (ages.sort)
 ages << 0
 
 puts (movie_names[:tron])
+
+#Exercise 2
+puts fav_colours[-1]
+
+cities[:vancouver] = 630000
+
+flips = flips.reverse
+
+puts cities[:toronto]
+
+performers.each do |artist|
+  puts "I think #{artist} is great."
+end
+
+puts performers[0] + " " + performers[1]
